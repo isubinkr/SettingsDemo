@@ -36,11 +36,10 @@
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
+                            <constraint firstItem="xGS-KN-ekq" firstAttribute="top" secondItem="hI8-fb-S0t" secondAttribute="top" constant="7" id="1P7-Gd-5kh"/>
                             <constraint firstItem="XxH-iE-Mix" firstAttribute="top" secondItem="hI8-fb-S0t" secondAttribute="top" constant="11.5" id="3gx-cm-Qzj"/>
                             <constraint firstItem="xGS-KN-ekq" firstAttribute="leading" secondItem="hI8-fb-S0t" secondAttribute="leading" constant="20" id="9DS-f2-jSM"/>
-                            <constraint firstItem="xGS-KN-ekq" firstAttribute="top" secondItem="hI8-fb-S0t" secondAttribute="top" constant="7" id="Ac2-P2-wee"/>
                             <constraint firstItem="XxH-iE-Mix" firstAttribute="leading" secondItem="xGS-KN-ekq" secondAttribute="trailing" constant="15" id="BuZ-7e-Qdk"/>
-                            <constraint firstAttribute="bottom" secondItem="xGS-KN-ekq" secondAttribute="bottom" constant="7" id="PzM-ft-oCj"/>
                         </constraints>
                     </view>
                 </subviews>
