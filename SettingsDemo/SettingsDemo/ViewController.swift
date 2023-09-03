@@ -25,7 +25,7 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
         
         myTable.register(UINib(nibName: "SettingsCell", bundle: nil), forCellReuseIdentifier: "cellcustom")
         
-        
+        myTable.register(UINib(nibName: "HeaderCell", bundle: nil), forCellReuseIdentifier: "customheader")
     }
     
     
@@ -41,10 +41,15 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
         return cell
     }
     
-    func tableView(_ tableView: UITableView, titleForHeaderInSection section: Int) -> String? {
-        return "Settings"
+    func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        print("\(lab[indexPath.row]) is pressed.")
     }
-
+    
+    func tableView(_ tableView: UITableView, viewForHeaderInSection section: Int) -> UIView? {
+        let hCell = myTable.dequeueReusableCell(withIdentifier: "customheader") as! HeaderCell
+        hCell.CustomHLabel.text = "Settings"
+        return hCell
+    }
 
 }
 

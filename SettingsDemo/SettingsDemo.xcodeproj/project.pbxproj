@@ -15,6 +15,8 @@
 		407871E42A9E7DD700924577 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 407871E22A9E7DD700924577 /* LaunchScreen.storyboard */; };
 		407871ED2A9E811D00924577 /* SettingsCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 407871EB2A9E811D00924577 /* SettingsCell.swift */; };
 		407871EE2A9E811D00924577 /* SettingsCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 407871EC2A9E811D00924577 /* SettingsCell.xib */; };
+		40FB0C172AA39F08009FA5FD /* HeaderCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40FB0C152AA39F08009FA5FD /* HeaderCell.swift */; };
+		40FB0C182AA39F08009FA5FD /* HeaderCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 40FB0C162AA39F08009FA5FD /* HeaderCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +30,8 @@
 		407871E52A9E7DD700924577 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		407871EB2A9E811D00924577 /* SettingsCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsCell.swift; sourceTree = "<group>"; };
 		407871EC2A9E811D00924577 /* SettingsCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SettingsCell.xib; sourceTree = "<group>"; };
+		40FB0C152AA39F08009FA5FD /* HeaderCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderCell.swift; sourceTree = "<group>"; };
+		40FB0C162AA39F08009FA5FD /* HeaderCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HeaderCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -69,6 +73,8 @@
 				407871E52A9E7DD700924577 /* Info.plist */,
 				407871EB2A9E811D00924577 /* SettingsCell.swift */,
 				407871EC2A9E811D00924577 /* SettingsCell.xib */,
+				40FB0C152AA39F08009FA5FD /* HeaderCell.swift */,
+				40FB0C162AA39F08009FA5FD /* HeaderCell.xib */,
 			);
 			path = SettingsDemo;
 			sourceTree = "<group>";
@@ -131,6 +137,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				40FB0C182AA39F08009FA5FD /* HeaderCell.xib in Resources */,
 				407871E42A9E7DD700924577 /* LaunchScreen.storyboard in Resources */,
 				407871E12A9E7DD700924577 /* Assets.xcassets in Resources */,
 				407871EE2A9E811D00924577 /* SettingsCell.xib in Resources */,
@@ -146,6 +153,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				407871DC2A9E7DD600924577 /* ViewController.swift in Sources */,
+				40FB0C172AA39F08009FA5FD /* HeaderCell.swift in Sources */,
 				407871D82A9E7DD600924577 /* AppDelegate.swift in Sources */,
 				407871ED2A9E811D00924577 /* SettingsCell.swift in Sources */,
 				407871DA2A9E7DD600924577 /* SceneDelegate.swift in Sources */,
